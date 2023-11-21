@@ -13,7 +13,7 @@
     margin-left: 5%;
     margin-right: 5;
     display: grid;
-    grid-template-rows: 80px 200px 0% 0%;
+    grid-template-rows: 80px 210px 0% 0%;
 }
 .title {
     display: grid;
@@ -26,7 +26,7 @@
     background-color: bisque;
     border-radius: 5px;
     border: 1px solid black;
-    width: 50vh; height: 225px;
+    width: 45vh; height: 250px;
     justify-content: center;
     display: grid;
     align-items: center;
@@ -36,7 +36,7 @@
 .q {
     justify-self: center;
     margin-left: 50px; margin-right: 50px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .c {
     margin-left: 50px;
