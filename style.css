@@ -11,9 +11,7 @@
     height: auto;
     margin-left: 5%;
     margin-right: 5;
-    display: grid;
     grid-template-rows: 80px 250px 0% 0%;
-    justify-content: center;
 }
 .title {
     display: grid;
@@ -26,7 +24,7 @@
     background-color: bisque;
     border-radius: 5px;
     border: 1px solid black;
-    width: 60vh; height: 225px;
+    width: 50vh; height: 225px;
     justify-content: center;
     display: grid;
     align-items: center;
