@@ -5,13 +5,15 @@
     height: 100vh;
     width: 100%;
     display: grid;
+    overflow-x: auto;
 }
 .m {
     width: 90%;
     height: auto;
     margin-left: 5%;
     margin-right: 5;
-    grid-template-rows: 80px 250px 0% 0%;
+    display: grid;
+    grid-template-rows: 80px 200px 0% 0%;
 }
 .title {
     display: grid;
@@ -43,13 +45,14 @@
 .btn {
     width: 18vh; height: 8vh;
     display: flex;
-    justify-self: center;
     align-items: center;
-    justify-content: center;
     background-color: aqua;
     border-radius: 5px;
     border: solid black 1px;
     font-size: 15px;
+    margin-top: 50px;
+    justify-self: center;
+    display: grid;
 }
 .btn:hover {
     opacity: 0.9;
